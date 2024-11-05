@@ -2,5 +2,7 @@
 #opengrok/docker
 ubuntu
 kubeshark/hub:v52.3.88
+kubeshark/front:v52.3.88
+kubeshark/worker:v52.3.88
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
