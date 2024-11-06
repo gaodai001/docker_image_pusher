@@ -1,0 +1,21 @@
+name: test_cmd
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    name: Pull
+    runs-on: ubuntu-latest
+    steps:
+    - name: Before freeing up disk space
+      run: |
+        echo "Before freeing up disk space"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+        free -m
+        lscpu
+        uname -a
+        docker search openeuler
