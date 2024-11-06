@@ -24,5 +24,6 @@ jobs:
         #docker search openeuler
         #dpkg -l > a.txt
         #cat a.txt
+        pwd
         ls
         echo "=============================================================================="
