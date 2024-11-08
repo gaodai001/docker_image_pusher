@@ -35,6 +35,6 @@ jobs:
         #echo "a" | nc -u xx.gaodai002.space 60002
         docker images
         docker ps
-        docker pull --platform=linux/arm64 kubeshark/worker:v52.3.88 
-        docker inspect kubeshark/worker:v52.3.88 
+        #docker pull --platform=linux/arm64 kubeshark/worker:v52.3.88 
+        #docker inspect kubeshark/worker:v52.3.88 
         echo "=============================================================================="
